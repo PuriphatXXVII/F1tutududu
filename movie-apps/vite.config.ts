@@ -8,5 +8,9 @@ export default defineConfig({
   base: "/F1tutududu/", // GitHub Pages repository name
   build: {
     outDir: "dist",
+    assetsDir: "assets",
+  },
+  server: {
+    port: 5174,
   },
 });

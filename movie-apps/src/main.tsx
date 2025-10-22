@@ -6,7 +6,7 @@ import { createRoot } from "react-dom/client";
 import "./styles/index.css";
 
 // Import ส่วนประกอบที่ใช้ในการจัดการ Routing (การเปลี่ยนหน้า)
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
 // Import Redux store และ Provider เพื่อให้ทั้งแอปเข้าถึง state ส่วนกลางได้
 import { store } from "./store/store";
@@ -20,7 +20,7 @@ import Favorites from "./routes/Favorites"; // หน้าที่เก็บ
 import About from "./routes/About"; // หน้าเกี่ยวกับ
 
 // สร้าง Router เพื่อกำหนดเส้นทาง (URL) และ Component ที่จะแสดงผลในแต่ละเส้นทาง
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/", // เส้นทางหลัก
     element: <App />, // เมื่อเข้ามาที่ path นี้ ให้ใช้ App Component เป็นโครง
