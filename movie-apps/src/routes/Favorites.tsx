@@ -1,10 +1,9 @@
 // Import hook และ component ที่จำเป็น
 import { useEffect, useState } from "react";
-import axios from "axios";
 import { useSelector } from "react-redux";
 import type { RootState } from "../store/store";
 import F1Grid from "../components/F1Grid";
-import type { F1Item, Driver, Team, Race } from "../types/movie";
+import type { F1Item } from "../types/movie";
 
 // Component สำหรับหน้าแสดงรายการโปรด (เวอร์ชันใช้ Redux)
 export default function Favorites() {

@@ -1,10 +1,9 @@
-// นำเข้าเครื่องมือที่จำเป็นจาก Redux Toolkit และ axios สำหรับการเรียก API
+// นำเข้าเครื่องมือที่จำเป็นจาก Redux Toolkit
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
 
-import axios from "axios";
 // นำเข้า Type Definitions เพื่อความถูกต้องของข้อมูล
-import type { Driver, Team, Race, F1Item, DriversResponse, TeamsResponse, RacesResponse } from "../types/movie";
+import type { F1Item, DriversResponse, TeamsResponse, RacesResponse } from "../types/movie";
 
 // กำหนดโครงสร้าง (Interface) ของ State สำหรับ Slice นี้
 type F1State = {
@@ -37,7 +36,7 @@ export const fetchF1Data = createAsyncThunk<
   { category: "drivers" | "teams" | "races"; offset?: number; limit?: number; season?: number } // ประเภทของ Argument ที่รับเข้ามา
 >(
   "f1/fetchData", // ชื่อของ Action Type
-  async ({ category, offset = 0, limit = 20, season = 2024 }) => {
+  async ({ category, offset = 0, limit = 20 }) => {
     // ใช้ mock data แทนการเรียก API จริง
     const { getMockDriversResponse, getMockTeamsResponse, getMockRacesResponse } = await import("../lib/mockF1Data");
     

@@ -1,5 +1,5 @@
 // Mock F1 data for testing purposes
-import type { Driver, Team, Race, F1Item } from "../types/movie";
+import type { Driver, Team, Race } from "../types/movie";
 
 export const mockDrivers: Driver[] = [
   {

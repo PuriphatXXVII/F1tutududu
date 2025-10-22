@@ -1,7 +1,6 @@
 // Import hook และเครื่องมือที่จำเป็น
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import axios from "axios";
 import type { Driver, Team, Race, F1Item } from "../types/movie";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleFavorite } from "../store/favoritesSlice";

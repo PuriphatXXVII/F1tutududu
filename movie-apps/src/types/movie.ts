@@ -116,3 +116,13 @@ export type Circuit = {
 
 // Union type สำหรับ F1 items (for generic handling)
 export type F1Item = Driver | Team | Race | Circuit;
+
+// Type สำหรับหนัง (สำหรับ MovieCard component)
+export type Movie = {
+  id: number | string;
+  title: string;
+  title_en?: string;
+  images?: Array<{
+    url: string;
+  }>;
+};

@@ -1,6 +1,6 @@
 // Import ที่จำเป็น
 import { Link } from "react-router-dom";
-import type { F1Item, Driver, Team, Race } from "../types/movie";
+import type { F1Item } from "../types/movie";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleFavorite } from "../store/favoritesSlice";
 import type { RootState, AppDispatch } from "../store/store";
