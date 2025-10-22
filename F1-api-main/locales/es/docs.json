@@ -1,0 +1,13 @@
+{
+  "title": "F1 API Documentación",
+  "home": "Inicio",
+  "p1": "Bienvenido a Formula 1 Connect API. Esta API provee acceso a información relacionada con las carreras de F1, sus pilotos, equipos, circuitos, etc.",
+  "p2": "Toda la información se devuelve en formato JSON y está lista para ser usada. Simplemente tienes que hacer fetch a https://f1api.dev utilizando el endpoint que quieras.",
+  "description": "Descripción",
+  "example": "Ejemplo",
+  "params": "Parámetros",
+  "default": "Por defecto",
+  "table-caption": "Una lista de todos los endpoints de la api.",
+  "blog-entrance": "En este blog iremos detallando cada actualización de la API. Así como noticias y curiosidades relacionadas con la F1.",
+  "blog-advertise": "Ten en cuenta que los changelog estan escritos en inglés, pero las noticias sobre F1 están escritas en español."
+}

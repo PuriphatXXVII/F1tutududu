@@ -1,0 +1,37 @@
+[
+  {
+    "name": "PlanB - F1 Data",
+    "description": "Simply F1 calendar and races data.",
+    "author": "Artem Anisimov",
+    "url": "https://apps.apple.com/us/app/planb-f1-data/id6503033841",
+    "img": "/referrals/PlanB.avif"
+  },
+  {
+    "name": "Formula One",
+    "description": "Formula One schedule and results.",
+    "author": "Sam Frost",
+    "url": "https://formulaone.pythonanywhere.com",
+    "img": "/referrals/SamFrost.avif"
+  },
+  {
+    "name": "F1PL",
+    "description": "F1 data, news, and stadistics.",
+    "author": "Patryk Chmielewski",
+    "url": "https://f1pl.pl",
+    "img": "/referrals/PatrykChmielewski.avif"
+  },
+  {
+    "name": "Podium F1",
+    "description": "Preddiction F1 Game based on real results.",
+    "author": "Podium F1",
+    "url": "https://pitlane.podiumf1.com",
+    "img": "/referrals/PodiumF1.avif"
+  },
+  {
+    "name": "F1 Hub iOS",
+    "description": "F1 Hub is an iOS app that uses F1 API endpoints.",
+    "author": "Marcos Morales",
+    "url": "https://github.com/marquinhosMorales/f1hub-ios",
+    "img": "/referrals/F1Hub.avif"
+  }
+]

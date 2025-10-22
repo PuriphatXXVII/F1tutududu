@@ -1,0 +1,13 @@
+{
+  "title": "F1 API Documentation",
+  "home": "Home",
+  "p1": "Welcome to the Formula 1 API! This API provides access to a wealth of data related to Formula 1 races, drivers, teams, circuits, and more.",
+  "p2": "All the data its provided in JSON format and its ready to use. Simply fetch https://f1api.dev with the endpoint that you like.",
+  "description": "Description",
+  "example": "Example",
+  "params": "Params",
+  "default": "Default",
+  "table-caption": "A list of all the API endpoints.",
+  "blog-entrance": " In this blog we will be going through each update of the API. As well as news and curiosities related to F1.",
+  "blog-advertise": "Note that the changelog is written in English, but news about F1 is written in Spanish."
+}
